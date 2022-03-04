@@ -1,0 +1,82 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    overflow: hidden;
+
+}
+
+
+@font-face {
+    font-family: "HelveticaNowDisplayXBlk";
+    src: url(b9af1a03dde24168.otf)
+  }
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: HelveticaNowDisplayXBlk;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: calc(1.5rem + 2.5vw);
+    color: #272727;
+    height: 100%;
+}
+
+img {
+    margin: 10px;
+    width: 150px;
+    height: auto;
+}
+
+.webgl {
+    flex: 1;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    flex: 1;
+}
+
+#content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+details {
+    user-select: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  
+  
+  summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .info {
+      font-family: Helvetica;
+      font-weight: lighter;
+      font-size: 16px;
+  }
+
+/*# sourceMappingURL=main.css.map*/
